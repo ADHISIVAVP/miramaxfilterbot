@@ -28,8 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name} \n ━━━━━━━━━━━━━━━━
-🎯 JOIN CHANNEL
+                caption = f"{file_name} \n 🎯 JOIN CHANNEL
 📢 @miramaxfilmz 
 
 🎯 JOIN SERIES CHANNEL
@@ -37,9 +36,7 @@ async def start(bot, update):
 
  Join 🏮 Share 🏮 Support
 
-𝕄𝕌𝕊𝕋 𝕁𝕆𝕀ℕ ℂℍ𝔸ℕℕ𝔼𝕃
-
-    💎 𝙵𝙸𝚁𝚂𝚃 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼  💎 ",
+𝕄𝕌𝕊𝕋 𝕁𝕆𝕀ℕ ℂℍ𝔸ℕℕ𝔼𝕃",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
