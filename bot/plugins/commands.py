@@ -32,11 +32,7 @@ async def start(bot, update):
 📢 @miramaxfilmz 
 
 🎯 JOIN SERIES CHANNEL
-⚔ @miramaxseries 
-
- Join 🏮 Share 🏮 Support
-
-𝕄𝕌𝕊𝕋 𝕁𝕆𝕀ℕ ℂℍ𝔸ℕℕ𝔼𝕃",
+⚔ @miramaxseries ",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
