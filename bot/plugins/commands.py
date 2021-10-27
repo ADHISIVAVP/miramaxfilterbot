@@ -28,11 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name} \n 🎯 JOIN CHANNEL
-📢 @miramaxfilmz 
-
-🎯 JOIN SERIES CHANNEL
-⚔ @miramaxseries ",
+                caption = f"{file_name} \n @miramaxfilmz",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
